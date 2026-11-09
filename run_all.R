@@ -220,3 +220,5 @@ for (column in c("WTP Mean", "SE")) {
     is.na(values), "", format(round(values, 3), nsmall = 3)
   )
 }
+
+print(sessionInfo())
